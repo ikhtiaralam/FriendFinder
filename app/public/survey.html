@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Friend Finder Survey</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	
+</head>
+<body>
+	<div id="main-content" class="container">
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+				<h1><strong>Survey Questions</strong></h1>
+					<div>
+						<div class="input-group">
+							<h3>About You</h3>
+							<p>Name (Required)</p>
+							<input type="text" id="name" class="form-control" required>
+						</div>
+						<div class="input-group">
+							<p>Link to Photo Image (Required)</p>
+							<input type="text" id="photo" class="form-control" required>
+						</div>
+					</div>
+
+					<hr>
+
+					<div id="survey">
+						<h3><strong>Question 1</strong></h3>
+						<h4>You like to be in chargw</h4>
+					 	<select data-placeholder="" class="chosen-select" id="q1">
+					 		<option value=""></option>
+				            <option value="1">1 (Strongly Disagree)</option>
+				            <option value="2">2</option>
+				            <option value="3">3</option>
+				            <option value="4">4</option>
+				            <option value="5">5 (Strongly Agree)</option>
+				      	</select>
+
+						<h3><strong>Question 2</strong></h3>
+						<h4>Generally speaking, you enjoy recieving gifts.</h4>
+					 	<select data-placeholder="" class="chosen-select" id="q2">
+					 		<option value=""></option>
+				            <option value="1">1 (Strongly Disagree)</option>
+				            <option value="2">2</option>
+				            <option value="3">3</option>
+				            <option value="4">4</option>
+				            <option value="5">5 (Strongly Agree)</option>
+				      	</select>
+
+
+						<h3><strong>Question 3</strong></h3>
+						<h4>You find yourself wanting to meet up more than interact online.</h4>
+					 	<select data-placeholder="" class="chosen-select" id="q3">
+					 		<option value=""></option>
+				            <option value="1">1 (Strongly Disagree)</option>
+				            <option value="2">2</option>
+				            <option value="3">3</option>
+				            <option value="4">4</option>
+				            <option value="5">5 (Strongly Agree)</option>
+				      	</select>
+
+
+						<h3><strong>Question 4</strong></h3>
+						<h4>You're very spontaneous.</h4>
+					 	<select data-placeholder="" class="chosen-select" id="q4">
+					 		<option value=""></option>
+				            <option value="1">1 (Strongly Disagree)</option>
+				            <option value="2">2</option>
+				            <option value="3">3</option>
+				            <option value="4">4</option>
+				            <option value="5">5 (Strongly Agree)</option>
+				      	</select>
+
+
+						<h3><strong>Question 5</strong></h3>
+						<h4>People are often overwhelmed by your energy.</h4>
+					 	<select data-placeholder="" class="chosen-select" id="q5">
+					 		<option value=""></option>
+				            <option value="1">1 (Strongly Disagree)</option>
+				            <option value="2">2</option>
+				            <option value="3">3</option>
+				            <option value="4">4</option>
+				            <option value="5">5 (Strongly Agree)</option>
+				      	</select>
+
+
+						<h3><strong>Question 6</strong></h3>
+						<h4>You're very sensitive to other people's issues.</h4>
+					 	<select data-placeholder="" class="chosen-select" id="q6">
+					 		<option value=""></option>
+				            <option value="1">1 (Strongly Disagree)</option>
+				            <option value="2">2</option>
+				            <option value="3">3</option>
+				            <option value="4">4</option>
+				            <option value="5">5 (Strongly Agree)</option>
+				      	</select>
+
+
+						<h3><strong>Question 7</strong></h3>
+						<h4>You are very adventurous.</h4>
+					 	<select data-placeholder="" class="chosen-select" id="q7">
+					 		<option value=""></option>
+				            <option value="1">1 (Strongly Disagree)</option>
+				            <option value="2">2</option>
+				            <option value="3">3</option>
+				            <option value="4">4</option>
+				            <option value="5">5 (Strongly Agree)</option>
+				      	</select>
+
+						<h3><strong>Question 8</strong></h3>
+						<h4>You're very punctual.</h4>
+					 	<select data-placeholder="" class="chosen-select" id="q8">
+					 		<option value=""></option>
+				            <option value="1">1 (Strongly Disagree)</option>
+				            <option value="2">2</option>
+				            <option value="3">3</option>
+				            <option value="4">4</option>
+				            <option value="5">5 (Strongly Agree)</option>
+				      	</select>
+
+						<h3><strong>Question 9</strong></h3>
+						<h4>You're very opinionated.</h4>
+					 	<select data-placeholder="" class="chosen-select" id="q9">
+					 		<option value=""></option>
+				            <option value="1">1 (Strongly Disagree)</option>
+				            <option value="2">2</option>
+				            <option value="3">3</option>
+				            <option value="4">4</option>
+				            <option value="5">5 (Strongly Agree)</option>
+				      	</select>
+
+						<h3><strong>Question 10</strong></h3>
+						<h4>You feel like you should be the center of attention.</h4>
+					 	<select data-placeholder="" class="chosen-select" id="q10">
+					 		<option value=""></option>
+				            <option value="1">1 (Strongly Disagree)</option>
+				            <option value="2">2</option>
+				            <option value="3">3</option>
+				            <option value="4">4</option>
+				            <option value="5">5 (Strongly Agree)</option>
+				      	</select>
+
+					</div>
+
+					<button type="submit" id="submit" class="btn btn-success btn-lg btn-block"><span class="glyphicon glyphicon-check"></span>Submit</button>
+
+				</div>
+			</div>
+		</div>
+		<!-- modal hidden on page to be toggled after submit button -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Congratulations</h4>
+		      </div>
+		      <div class="modal-body">
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+	<footer class="footer">
+		
+	</footer>
+
+	<script type="text/javascript">
+		//on click of submit button, ajax on click
+		$('#submit').on('click', function(){
+		
+			var newFriend = {
+				'name': $('#name').val().trim(),
+				'photo': $('#photo').val().trim(),
+				'scores': [$('#q1').val(),$('#q2').val(),$('#q3').val(),$('#q4').val(),$('#q5').val(),$('#q6').val(),$('#q7').val(),$('#q8').val(),$('#q9').val(),$('#q10').val()]
+			};
+			
+			//grab current URL for post method
+			var currentURL = window.location.origin;
+			//ajax send info to api route and await response
+		    $.post(currentURL+"/api/friends", newFriend, function(data){
+		    	//test data retrieval
+		    	//console.log(data);
+		    	
+		    })
+		    	.done(function(data){
+		    		//test data retrieval
+		    		//console.log(data);
+		    		//build info into modal, use html to replace previous friend
+		    		$('.modal-body').html('<h1> New friend found!</h1>'+
+		    								'<h3> '+data.name+ '</h3>'+
+		    								'<img src="'+data.photo+'" width=300px>');
+		    		//toggle modal to appear on page
+			    	$('#myModal').modal('toggle');
+		    });
+		})
+	</script>
+</body>
+</html>
