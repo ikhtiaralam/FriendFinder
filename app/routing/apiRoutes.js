@@ -1,5 +1,5 @@
 // Routes
-var friendsList = require('../data/friends.js');
+var friendsList = require('../data/friends');
 
 var bodyParser = require('body-parser');
 
